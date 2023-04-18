@@ -63,9 +63,9 @@ plt.grid(True)
 plt.show()
 
 plt.scatter(df['Average\nHumidity\n(%)'], df['Average Solar\nPower\n(W)'], color='red')
-plt.title(' Heat index Vs Solar Power', fontsize=14)
+plt.title(' Humidity Vs Solar Power', fontsize=14)
 plt.xlabel('Solar Power', fontsize=14)
-plt.ylabel('Heat index', fontsize=14)
+plt.ylabel('Humidity', fontsize=14)
 plt.grid(True)
 plt.show()
 
